@@ -1,5 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+
+
 body {
-    background-color: brown;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-family: 15px;
 }
 
-el archivo css
+.rating {
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid;
+    width: 250px;
+    margin: 0 auto;
+    padding: 16px;
+    margin-top: 30px;
+    min-height: 250px;
+    border-radius: 10px;
+}
+
+.rating__start {
+    background-color: hsla(220, 23%, 95%, 0.029);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating__title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.rating__description {
+    font-weight: 400px;
+    color: hsl(216, 12%, 54%);
+}
+
+.rating__feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rating__feedback span {
+    background-color: rgba(240, 248, 255, 0.085);
+    /* border: 1px solid white;*/
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating__feedback span.rating__feedback--active {
+    background-color: beige;
+    color: black;
+}
+
+.rating__feedback span:hover {
+    background-color: rgb(211, 145, 21);
+}
+
+.rating__button {
+    border: none;
+    width: 80%;
+    background-color: orange;
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 25px;
+
+}
+
+.rating__button:hover {
+    background-color: beige;
+    color: hsl(33, 81%, 40%);
+}
